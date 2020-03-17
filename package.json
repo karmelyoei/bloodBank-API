@@ -1,0 +1,37 @@
+{
+  "name": "bloodBank-API",
+  "version": "1.0.0",
+  "description": "a simple blood bank API. It doesn't not have any html or css. Just nodejs and sql.",
+  "main": "index.js",
+  "directories": {
+    "test": "tape tests/*.js | tap-spec",
+    "start": "nodemon src"
+  },
+  "scripts": {
+    "test": "tape test/*.js | tap-spec",
+    "start": "nodemon src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karmelyoei/bloodBank-API.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/karmelyoei/bloodBank-API/issues"
+  },
+  "homepage": "https://github.com/karmelyoei/bloodBank-API#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.2",
+    "pg": "^7.18.2",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "supertest": "^4.0.2",
+    "tap-spec": "^5.0.0",
+    "tape": "^4.13.2"
+  }
+}
