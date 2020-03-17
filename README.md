@@ -40,4 +40,4 @@ GRANT ALL PRIVILEGES ON DATABASE <database name here> TO <desired username enter
 1. npm start for localhost
 1. npm run test
 
-#Enjoy of learning new things BY @karmelyoei :performing_arts:
+# Enjoy learning new things BY @karmelyoei :performing_arts:
