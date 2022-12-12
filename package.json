@@ -24,7 +24,7 @@
   "homepage": "https://github.com/karmelyoei/bloodBank-API#readme",
   "dependencies": {
     "dotenv": "^8.2.0",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "nodemon": "^2.0.2",
     "pg": "^7.18.2",
     "request": "^2.88.2"
